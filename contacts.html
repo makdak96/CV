@@ -1,33 +1,36 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Contacts</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1><strong>Contacts</strong></h1>
     <h3><strong>Telephone</strong></h3>
-    <a href="tel:+972559369693"><em>+972559369693</em></a>
+    <a class="links" href="tel:+972559369693"><em>+972559369693</em></a>
     <h3><strong>Email</strong></h3>
-    <a href="mailto:makashev1996@gmail.com"><em>makashev1996@gmail.com</em></a>
+    <a class="links" href="mailto:makashev1996@gmail.com"><em>makashev1996@gmail.com</em></a>
     <h3><strong>Address</strong></h3>
     <em>Israel, Bat Yam, Bayit Vagan, 8<br>
     5941706</em><br>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27060.659950769288!2d34.74777278098143!3d32.02642129985156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1502b340affcf3cd%3A0xf004e76f49271b76!2sBayit%20Vagan%208%2C%20Bat%20Yam!5e0!3m2!1sru!2sil!4v1673638997743!5m2!1sru!2sil" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <hr>
+    
+    <h4><strong>Message me</strong></h4>
+    <form action="mailto:makashev1996@gmail.com" method="post" enctype="text/plain">
+        <label>Your fullname</label><br>
+        <input type="text" name="YourName"><br>
+        <label>Your email</label><br>
+        <input type="email" name="YourEmail"><br>
+        <label>Your telephone</label><br>
+        <input type="tel" name="YourPnone"><br>
+        <label>Your message</label><br>
+        <textarea name="YourMessage" rows="2" cols="21"></textarea><br>
+        <input type="submit">
+    </form>
+
+    <a class="links" href="index.html"><h4><strong>Main page</strong></h4></a>
 </body>
-
-<h4><strong>Message me</strong></h4>
-<form action="mailto:makashev1996@gmail.com" method="post" enctype="text/plain">
-    <label>Your fullname</label><br>
-    <input type="text" name="YourName"><br>
-    <label>Your email</label><br>
-    <input type="email" name="YourEmail"><br>
-    <label>Your telephone</label><br>
-    <input type="tel" name="YourPnone"><br>
-    <label>Your message</label><br>
-    <textarea name="YourMessage" rows="2" cols="21"></textarea><br>
-    <input type="submit">
-</form>
-
-<a href="index.html"><h4><strong>Main page</strong></h4></a>
-
 </html>

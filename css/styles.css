@@ -1,0 +1,16 @@
+body {
+    background-color: #B5D5C5;
+}
+hr {
+border-style: none;
+border-top: dashed 5px white;
+padding: 1px;
+width: 10%;
+}
+h1, h2 {
+    color: #08585e;
+}
+
+.links:hover {
+    color: black;
+}
